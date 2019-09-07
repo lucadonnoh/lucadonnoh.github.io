@@ -50,5 +50,6 @@ a {
 @media (prefers-color-scheme: dark) {
 	html {
 		background-color: #2c3038;
+		color: #fbfefe;
 	}
 }
