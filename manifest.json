@@ -8,7 +8,7 @@
         "sizes": "512x512"
       }
     ],
-    "start_url": "self/index.html",
+    "start_url": "index.html",
     "background_color": "#fff",
     "display": "standalone",
     "scope": "/",
