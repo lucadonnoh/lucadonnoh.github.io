@@ -3,7 +3,7 @@
     "name": "Luca Donno Self",
     "icons": [
       {
-        "src": "self/style/icons-512.png",
+        "src": "style/icons-512.png",
         "type": "image/png",
         "sizes": "512x512"
       }
