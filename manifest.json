@@ -1,0 +1,16 @@
+{
+    "short_name": "Self",
+    "name": "Luca Donno Self",
+    "icons": [
+      {
+        "src": "/style/icons-512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/index.html",
+    "background_color": "#fff",
+    "display": "standalone",
+    "scope": ".",
+    "theme_color": "#000"
+  }
