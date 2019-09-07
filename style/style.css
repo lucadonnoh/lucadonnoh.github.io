@@ -46,3 +46,9 @@ footer svg {
 a {
     text-decoration: none;
 }
+
+@media (prefers-color-scheme: dark) {
+	html {
+		filter: invert(100%);
+	}
+}
