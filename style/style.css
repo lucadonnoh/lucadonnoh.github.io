@@ -4,12 +4,28 @@
         background-color: #2c3038;
         color: #fbfefe;
     }
+
+    .github {
+        fill: white;
+    }
+
+    #moon-toggle {
+        color: white;
+    }
 }
 
 @media (prefers-color-scheme: light) {
     html {
         background-color: #fafafa;
         color: #030101;
+    }
+
+    .github {
+        fill: black;
+    }
+
+    #moon-toggle {
+        color: black;
     }
 }
 
@@ -164,7 +180,20 @@ a:visited {
     color: #fafefe;
 }
 
-.night-mode svg.github {
+svg.github {
     transition: .5s;
+}
+
+.light-mode #moon-toggle {
+    color : black;
+}
+
+.night-mode svg.github {
     fill: white;
 }
+
+.light-mode svg.github {
+    transition: .5s;
+    fill: black;
+}
+
