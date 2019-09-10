@@ -28,6 +28,7 @@ body {
 
 main {
     padding: calc(10px + 8vw * 0.6);
+    padding-bottom: calc(30px + 6vw * 0.6);
 }
 
 .logo {
@@ -74,12 +75,13 @@ a {
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
     padding-top: 0;
-    height: calc(100vh - (10px + 8vw * 0.6));
+    padding-bottom: 0;
+    height: calc(100vh);
 }
 
 .titleContainer>.title {
     color: #fbfefe;
-    margin-top: 10px;
+    margin-top: 15px;
     font-size: calc(10px + 5vw * 0.6);
     font-weight: 600;
 }
@@ -106,7 +108,7 @@ a {
     justify-content: center;
     opacity: .2;
 
-    margin-top: 25px;
+    margin-top: 18px;
 }
 
 .arrow {
