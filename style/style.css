@@ -1,4 +1,4 @@
-/*
+
 @media (prefers-color-scheme: dark) {
     html {
         background-color: #2c3038;
@@ -12,15 +12,20 @@
         color: #030101;
     }
 }
-*/
 
-body {
+
+body{
     transition: .5s;
 }
 
 .night-mode {
     color: #fbfefe;
     background-color: #2c3038;
+}
+
+.light-mode {
+    background-color: #fafafa !important;
+    color: #030101 !important;
 }
 
 .night-mode > #moon-toggle {
