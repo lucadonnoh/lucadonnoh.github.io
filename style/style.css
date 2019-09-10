@@ -79,7 +79,7 @@ a {
 
 .titleContainer>.title {
     color: #fbfefe;
-    margin: 0;
+    margin-top: 10px;
     font-size: calc(10px + 5vw * 0.6);
     font-weight: 600;
 }
