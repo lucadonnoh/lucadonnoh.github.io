@@ -1,3 +1,4 @@
+/*
 @media (prefers-color-scheme: dark) {
     html {
         background-color: #2c3038;
@@ -10,6 +11,20 @@
         background-color: #fafafa;
         color: #030101;
     }
+}
+*/
+
+body {
+    transition: .5s;
+}
+
+.night-mode {
+    color: #fbfefe;
+    background-color: #2c3038;
+}
+
+.night-mode > #moon-toggle {
+    color: white;
 }
 
 ::-webkit-scrollbar {
@@ -71,7 +86,7 @@ a {
 .projects {
     display: flex;
     flex-direction: column;
-    background-color: #2196f3;
+    background-color: #5379FF;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
     padding-top: 0;
@@ -125,4 +140,25 @@ a {
 
 .arrow-right {
     transform: rotate(-20deg);
+}
+
+#moon-toggle {
+    position: fixed;
+    top: 6px;
+    right: 16px;
+    font-size: 26px;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #030101;
+}
+
+.night-mode #moon-toggle:visited {
+    color: #fafefe;
+}
+
+.night-mode svg.github {
+    transition: .5s;
+    fill: white;
 }
