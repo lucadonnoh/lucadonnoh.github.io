@@ -197,3 +197,7 @@ svg.github {
     fill: black;
 }
 
+.logo > svg {
+    fill: #5379FF;
+    height: 100px;
+}
