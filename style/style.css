@@ -19,8 +19,8 @@ body {
 }
 
 .night-mode {
-    color: #fbfefe;
-    background-color: #2c3038;
+    color: #fbfefe !important;
+    background-color: #2c3038 !important;
 }
 
 .night-mode > #moon-toggle {
