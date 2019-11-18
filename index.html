@@ -29,7 +29,31 @@
 		<h1 class="title">Hi, I'm Donno.</h1>
 		<h2 class="desc">Full stack developer focusing on solving problems through brute force and excessive code.
 		</h2>
-		<a href=".well-known/brave-rewards-verification.txt">link text</a>
+	        <!-- 1. Place the button somewhere in your HTML -->
+<div id="nano-button"></div>
+
+<!-- 2. Add the BrainBlocks script -->
+<script src="https://brainblocks.io/brainblocks.min.js"></script>
+
+<!-- 3. Render the button -->
+<script type="text/javascript">
+  // Render the Nano button
+  brainblocks.Button.render({
+
+    // Pass in payment options
+    payment: {
+      currency: 'rai',
+      amount: '1000',
+      destination: 'nano_1ir9w3ujkop17eir9a9brer4bbo33g9q81aw6xe7n4gueupndq48h4wmqmn7'
+    },
+
+    // Handle successful payments
+    onPayment: function(data) {
+      // 4. Call BrainBlocks API to verify data.token
+      // See tab #2
+    }
+  }, '#nano-button');
+</script>
 		<footer class="links">
 			<a href="https://www.twitter.com/lucadonnoh" aria-label="Twitter" rel="noopener" target="_blank">
 				<svg viewBox="0 0 24 24">
