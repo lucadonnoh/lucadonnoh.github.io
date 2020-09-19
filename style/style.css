@@ -112,7 +112,7 @@ a {
     border-top-right-radius: 12px;
     padding-top: 0;
     padding-bottom: 0;
-    height: calc(100vh);
+    min-height: calc(100vh);
 }
 
 .titleContainer>.title {
@@ -169,7 +169,6 @@ a {
     right: 16px;
     font-size: 26px;
     text-decoration: none;
-    
 }
 
 a:visited {
@@ -200,4 +199,94 @@ svg.github {
 .logo > svg {
     fill: #5379FF;
     height: 100px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.cards {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+}
+
+.card {
+    width: 20%;
+    min-width: 230px;
+    min-height: 260px;
+    margin: 12px;
+    padding: 16px;
+    background: rgb(240, 233, 231) none repeat scroll 0% 0%;
+	border: 1px solid rgb(226, 214, 207);
+	border-radius: 12px;
+	box-shadow: rgb(247, 244, 242) 1px 1px 0px inset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	flex-direction: column;
+}
+
+.circle {
+	background-color: rgb(240, 233, 231);
+	font-size: 36px;
+	height: 80px;
+	width: 80px;
+	border-radius: 40px;
+	-moz-box-align: center;
+	align-items: center;
+	display: flex;
+	-moz-box-pack: center;
+    justify-content: center;
+	box-shadow: rgb(226, 214, 207) 4px 4px 8px inset, rgb(247, 244, 242) -6px -6px 12px inset;
+	margin: 0px auto 16px;
+}
+
+h4, h5 {
+    color: #2c3038
+}
+
+h4 {
+    margin: 10px;
+    font-size: 24px;
+
+}
+
+h5 {
+    margin: 0px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.openlink {
+    margin-top: 20px;
+	-moz-box-align: center;
+	align-items: center;
+	background-color: rgb(240, 233, 231);
+	border: 0px none;
+	border-radius: 12px;
+	box-shadow: rgb(226, 214, 207) 6px 6px 12px, rgb(247, 244, 242) -12px -12px 24px -2px;
+	color: #6389FF;
+	cursor: pointer;
+	display: flex;
+	font-size: 16px;
+	font-weight: 700;
+	height: 56px;
+	-moz-box-pack: center;
+	justify-content: center;
+	outline: currentcolor none medium;
+	padding-left: 24px;
+	padding-right: 24px;
+    width: 100%;
+
+    margin-top: auto;
+}
+
+.openlink:hover {
+    background-color: rgb(245, 240, 239);
 }
