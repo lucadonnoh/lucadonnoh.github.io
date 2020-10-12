@@ -1,0 +1,18 @@
+{
+    "title": "Asset Metadata",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string",
+            "description": "FooBar"
+        },
+        "description": {
+            "type": "string",
+            "description": "This is a description!! yayay"
+        },
+        "image": {
+            "type": "string",
+            "description": "https://ipfs.infura.io/ipfs/QmWc6YHE815F8kExchG9kd2uSsv7ZF1iQNn23bt5iKC6K3/image"
+        }
+    }
+}
