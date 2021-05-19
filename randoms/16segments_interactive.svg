@@ -243,123 +243,183 @@
 	</g>
 	<g id="Grafica">
 		<g id="D">
-			<path id="D16" class="st17" onclick="_switch(this.id)" style="" 
+			<path id="D16" class="st17"  style=""
 				d="M680.6,395.6l-14.8,12.6l10.4,12.6h33.9c5.9,0,12.3-2.2,16.8-6.2l-16-19.3L680.6,395.6z" />
-			<path id="D15" class="st18" onclick="_switch(this.id)" style="" 
+			<path id="D15" class="st18"  style=""
 				d="M621.2,395.4l-22.7,19.3c3.4,3.9,8.7,6.2,14.6,6.2H647l14.8-12.6l-10.4-12.6L621.2,395.4z" />
-			<path id="D14" class="st19" onclick="_switch(this.id)" style="" 
+			<path id="D14" class="st19"  style=""
 				d="M727.9,312.2l-14.6,81.2l16,19.3c4.2-3.9,7.8-9.5,8.7-15.7l15.1-84.8l-10.4-12.3L727.9,312.2z" />
-			<path id="D13" class="st20"  onclick="_switch(this.id)" style="" d="M689.5,351.1l19.9,42h1.7l5.3-31.1l-14.3-50.4l-17.6-11.4L689.5,351.1z" />
-			<path id="D12" class="st21"  onclick="_switch(this.id)" style="" d="M687,348.6l-4.2-47.9l-21,47.6l-7.8,45.4l10.3,12.6l14.9-12.6L687,348.6z" />
-			<path id="D11" class="st22"  onclick="_switch(this.id)" style="" d="M622.1,393.1h3.6l30.8-38.3l24.6-54.6l-21.5,11.4L627.4,362L622.1,393.1z" />
-			<path id="D10" class="st23"  onclick="_switch(this.id)" style="" d="M597.1,412.7l22.7-19.3l14-81.2l-10.4-12.6l-14.8,12.6L593.5,397
+			<path id="D13" class="st20"  style=""
+				d="M689.5,351.1l19.9,42h1.7l5.3-31.1l-14.3-50.4l-17.6-11.4L689.5,351.1z" />
+			<path id="D12" class="st21"  style=""
+				d="M687,348.6l-4.2-47.9l-21,47.6l-7.8,45.4l10.3,12.6l14.9-12.6L687,348.6z" />
+			<path id="D11" class="st22"  style=""
+				d="M622.1,393.1h3.6l30.8-38.3l24.6-54.6l-21.5,11.4L627.4,362L622.1,393.1z" />
+			<path id="D10" class="st23"  style="" d="M597.1,412.7l22.7-19.3l14-81.2l-10.4-12.6l-14.8,12.6L593.5,397
 			C592.7,403.2,594.1,408.8,597.1,412.7z" />
-			<path id="D09" class="st24"  onclick="_switch(this.id)" style="" d="M704.1,310.2h22.1l14.9-12.6L730.7,285h-22.1l-23.5,12.6L704.1,310.2z" />
-			<path id="D08" class="st25"  onclick="_switch(this.id)" style="" d="M625.7,297.6l10.4,12.6h22.1l23.5-12.6l-19-12.6h-22.2L625.7,297.6z" />
-			<path id="D07" class="st26" onclick="_switch(this.id)" style="" 
+			<path id="D09" class="st24"  style=""
+				d="M704.1,310.2h22.1l14.9-12.6L730.7,285h-22.1l-23.5,12.6L704.1,310.2z" />
+			<path id="D08" class="st25"  style=""
+				d="M625.7,297.6l10.4,12.6h22.1l23.5-12.6l-19-12.6h-22.2L625.7,297.6z" />
+			<path id="D07" class="st26"  style=""
 				d="M732.9,283.1l10.4,12.6l14.8-12.6l15.1-84.8c0.8-6.2-0.6-11.8-3.6-15.7l-22.7,19.3L732.9,283.1z" />
-			<path id="D06" class="st27"  onclick="_switch(this.id)" style="" d="M744.7,202.2h-3.6l-30.8,38.3l-24.7,54.6l21.6-11.5l32.2-50.4L744.7,202.2z" />
-			<path id="D05" class="st28"  onclick="_switch(this.id)" style="" d="M679.7,246.7l4.2,47.9l21-47.6l7.9-45.4L702.4,189l-14.8,12.6L679.7,246.7z" />
-			<path id="D04" class="st29"  onclick="_switch(this.id)" style="" d="M682.3,295.1l-5.1-50.9l-19.9-42h-1.6l-5.4,31l14.3,50.4L682.3,295.1z" />
-			<path id="D03" class="st30" onclick="_switch(this.id)" style="" 
+			<path id="D06" class="st27"  style=""
+				d="M744.7,202.2h-3.6l-30.8,38.3l-24.7,54.6l21.6-11.5l32.2-50.4L744.7,202.2z" />
+			<path id="D05" class="st28"  style=""
+				d="M679.7,246.7l4.2,47.9l21-47.6l7.9-45.4L702.4,189l-14.8,12.6L679.7,246.7z" />
+			<path id="D04" class="st29"  style=""
+				d="M682.3,295.1l-5.1-50.9l-19.9-42h-1.6l-5.4,31l14.3,50.4L682.3,295.1z" />
+			<path id="D03" class="st30"  style=""
 				d="M638.9,283.1l14.6-81.2l-16-19.3c-4.2,3.9-7.8,9.5-8.7,15.7l-15.1,84.8l10.4,12.6L638.9,283.1z" />
-			<path id="D02" class="st31" onclick="_switch(this.id)" style="" 
+			<path id="D02" class="st31"  style=""
 				d="M745.5,199.9l22.7-19.3c-3.4-3.9-8.7-6.2-14.6-6.2h-33.9L704.9,187l10.4,12.6L745.5,199.9z" />
-			<path id="D01" class="st32" onclick="_switch(this.id)" style="" 
+			<path id="D01" class="st32"  style=""
 				d="M686.2,199.6L701,187l-10.4-12.6h-33.9c-5.9,0-12.3,2.2-16.8,6.2l16,19.3L686.2,199.6z" />
 		</g>
 		<g id="C">
-			<path id="C16" class="st17" onclick="_switch(this.id)" style="" 
+			<path id="C16" class="st17"  style=""
 				d="M505.6,395.6l-14.8,12.6l10.4,12.6h33.9c5.9,0,12.3-2.2,16.8-6.2l-16-19.3L505.6,395.6z" />
-			<path id="C15" class="st18" onclick="_switch(this.id)" style="" 
+			<path id="C15" class="st18"  style=""
 				d="M446.2,395.4l-22.7,19.3c3.4,3.9,8.7,6.2,14.6,6.2H472l14.8-12.6l-10.4-12.6L446.2,395.4z" />
-			<path id="C14" class="st19" onclick="_switch(this.id)" style="" 
+			<path id="C14" class="st19"  style=""
 				d="M552.9,312.2l-14.6,81.2l16,19.3c4.2-3.9,7.8-9.5,8.7-15.7l15.1-84.8l-10.4-12.3L552.9,312.2z" />
-			<path id="C13" class="st20"  onclick="_switch(this.id)" style="" d="M514.5,351.1l19.9,42h1.7l5.3-31.1l-14.3-50.4l-17.6-11.4L514.5,351.1z" />
-			<path id="C12" class="st21"  onclick="_switch(this.id)" style="" d="M512,348.6l-4.2-47.9l-21,47.6l-7.8,45.4l10.3,12.6l14.9-12.6L512,348.6z" />
-			<path id="C11" class="st22"  onclick="_switch(this.id)" style="" d="M447.1,393.1h3.6l30.8-38.3l24.6-54.6l-21.5,11.4L452.4,362L447.1,393.1z" />
-			<path id="C10" class="st23"  onclick="_switch(this.id)" style="" d="M422.1,412.7l22.7-19.3l14-81.2l-10.4-12.6l-14.8,12.6L418.5,397
+			<path id="C13" class="st20"  style=""
+				d="M514.5,351.1l19.9,42h1.7l5.3-31.1l-14.3-50.4l-17.6-11.4L514.5,351.1z" />
+			<path id="C12" class="st21"  style=""
+				d="M512,348.6l-4.2-47.9l-21,47.6l-7.8,45.4l10.3,12.6l14.9-12.6L512,348.6z" />
+			<path id="C11" class="st22"  style=""
+				d="M447.1,393.1h3.6l30.8-38.3l24.6-54.6l-21.5,11.4L452.4,362L447.1,393.1z" />
+			<path id="C10" class="st23"  style="" d="M422.1,412.7l22.7-19.3l14-81.2l-10.4-12.6l-14.8,12.6L418.5,397
 			C417.7,403.2,419.1,408.8,422.1,412.7L422.1,412.7z" />
-			<path id="C09" class="st24"  onclick="_switch(this.id)" style="" d="M529.1,310.2h22.1l14.9-12.6L555.7,285h-22.1l-23.5,12.6L529.1,310.2z" />
-			<path id="C08" class="st25"  onclick="_switch(this.id)" style="" d="M450.7,297.6l10.4,12.6h22.1l23.5-12.6l-19-12.6h-22.2L450.7,297.6z" />
-			<path id="C07" class="st26" onclick="_switch(this.id)" style="" 
+			<path id="C09" class="st24"  style=""
+				d="M529.1,310.2h22.1l14.9-12.6L555.7,285h-22.1l-23.5,12.6L529.1,310.2z" />
+			<path id="C08" class="st25"  style=""
+				d="M450.7,297.6l10.4,12.6h22.1l23.5-12.6l-19-12.6h-22.2L450.7,297.6z" />
+			<path id="C07" class="st26"  style=""
 				d="M557.9,283.1l10.4,12.6l14.8-12.6l15.1-84.8c0.8-6.2-0.6-11.8-3.6-15.7l-22.7,19.3L557.9,283.1z" />
-			<path id="C06" class="st27"  onclick="_switch(this.id)" style="" d="M569.7,202.2h-3.6l-30.8,38.3l-24.7,54.6l21.6-11.5l32.2-50.4L569.7,202.2z" />
-			<path id="C05" class="st28"  onclick="_switch(this.id)" style="" d="M504.7,246.7l4.2,47.9l21-47.6l7.9-45.4L527.4,189l-14.8,12.6L504.7,246.7z" />
-			<path id="C04" class="st29"  onclick="_switch(this.id)" style="" d="M507.3,295.1l-5.1-50.9l-19.9-42h-1.6l-5.4,31l14.3,50.4L507.3,295.1z" />
-			<path id="C03" class="st30" onclick="_switch(this.id)" style="" 
+			<path id="C06" class="st27"  style=""
+				d="M569.7,202.2h-3.6l-30.8,38.3l-24.7,54.6l21.6-11.5l32.2-50.4L569.7,202.2z" />
+			<path id="C05" class="st28"  style=""
+				d="M504.7,246.7l4.2,47.9l21-47.6l7.9-45.4L527.4,189l-14.8,12.6L504.7,246.7z" />
+			<path id="C04" class="st29"  style=""
+				d="M507.3,295.1l-5.1-50.9l-19.9-42h-1.6l-5.4,31l14.3,50.4L507.3,295.1z" />
+			<path id="C03" class="st30"  style=""
 				d="M463.9,283.1l14.6-81.2l-16-19.3c-4.2,3.9-7.8,9.5-8.7,15.7l-15.1,84.8l10.4,12.6L463.9,283.1z" />
-			<path id="C02" class="st31" onclick="_switch(this.id)" style="" 
+			<path id="C02" class="st31"  style=""
 				d="M570.5,199.9l22.7-19.3c-3.4-3.9-8.7-6.2-14.6-6.2h-33.9L529.9,187l10.4,12.6L570.5,199.9z" />
-			<path id="C01" class="st32" onclick="_switch(this.id)" style="" 
+			<path id="C01" class="st32"  style=""
 				d="M511.2,199.6L526,187l-10.4-12.6h-33.9c-5.9,0-12.3,2.2-16.8,6.2l16,19.3L511.2,199.6z" />
 		</g>
 		<g id="B">
-			<path id="B16" class="st17" onclick="_switch(this.id)" style="" 
+			<path id="B16" class="st17"  style=""
 				d="M330.7,395.6l-14.8,12.6l10.4,12.6h33.9c5.9,0,12.3-2.2,16.8-6.2l-16-19.3L330.7,395.6z" />
-			<path id="B15" class="st18" onclick="_switch(this.id)" style="" 
+			<path id="B15" class="st18"  style=""
 				d="M271.3,395.4l-22.7,19.3c3.4,3.9,8.7,6.2,14.6,6.2h33.9l14.8-12.6l-10.4-12.6L271.3,395.4z" />
-			<path id="B14" class="st19" onclick="_switch(this.id)" style="" 
+			<path id="B14" class="st19"  style=""
 				d="M378,312.2l-14.6,81.2l16,19.3c4.2-3.9,7.8-9.5,8.7-15.7l15.1-84.8l-10.4-12.3L378,312.2z" />
-			<path id="B13" class="st20"  onclick="_switch(this.id)" style="" d="M339.6,351.1l19.9,42h1.7l5.3-31.1l-14.3-50.4l-17.6-11.4L339.6,351.1z" />
-			<path id="B12" class="st21" onclick="_switch(this.id)" style="" 
+			<path id="B13" class="st20"  style=""
+				d="M339.6,351.1l19.9,42h1.7l5.3-31.1l-14.3-50.4l-17.6-11.4L339.6,351.1z" />
+			<path id="B12" class="st21"  style=""
 				d="M337.1,348.6l-4.2-47.9l-21,47.6l-7.8,45.4l10.3,12.6l14.9-12.6L337.1,348.6z" />
-			<path id="B11" class="st22"  onclick="_switch(this.id)" style="" d="M272.2,393.1h3.6l30.8-38.3l24.6-54.6l-21.5,11.4L277.5,362L272.2,393.1z" />
-			<path id="B10" class="st23"  onclick="_switch(this.id)" style="" d="M247.2,412.7l22.7-19.3l14-81.2l-10.4-12.6l-14.8,12.6L243.6,397
+			<path id="B11" class="st22"  style=""
+				d="M272.2,393.1h3.6l30.8-38.3l24.6-54.6l-21.5,11.4L277.5,362L272.2,393.1z" />
+			<path id="B10" class="st23"  style="" d="M247.2,412.7l22.7-19.3l14-81.2l-10.4-12.6l-14.8,12.6L243.6,397
 			C242.8,403.2,244.2,408.8,247.2,412.7L247.2,412.7z" />
-			<path id="B09" class="st24"  onclick="_switch(this.id)" style="" d="M354.2,310.2h22.1l14.9-12.6L380.8,285h-22.1l-23.5,12.6L354.2,310.2z" />
-			<path id="B08" class="st25"  onclick="_switch(this.id)" style="" d="M275.8,297.6l10.4,12.6h22.1l23.5-12.6l-19-12.6h-22.2L275.8,297.6z" />
-			<path id="B07" class="st26" onclick="_switch(this.id)" style="" 
+			<path id="B09" class="st24"  style=""
+				d="M354.2,310.2h22.1l14.9-12.6L380.8,285h-22.1l-23.5,12.6L354.2,310.2z" />
+			<path id="B08" class="st25"  style=""
+				d="M275.8,297.6l10.4,12.6h22.1l23.5-12.6l-19-12.6h-22.2L275.8,297.6z" />
+			<path id="B07" class="st26"  style=""
 				d="M383,283.1l10.4,12.6l14.8-12.6l15.1-84.8c0.8-6.2-0.6-11.8-3.6-15.7L397,201.9L383,283.1z" />
-			<path id="B06" class="st27"  onclick="_switch(this.id)" style="" d="M394.8,202.2h-3.6l-30.8,38.3l-24.7,54.6l21.6-11.5l32.2-50.4L394.8,202.2z" />
-			<path id="B05" class="st28"  onclick="_switch(this.id)" style="" d="M329.8,246.7l4.2,47.9l21-47.6l7.9-45.4L352.5,189l-14.8,12.6L329.8,246.7z" />
-			<path id="B04" class="st29"  onclick="_switch(this.id)" style="" d="M332.4,295.1l-5.1-50.9l-19.9-42h-1.6l-5.4,31l14.3,50.4L332.4,295.1z" />
-			<path id="B03" class="st30" onclick="_switch(this.id)" style="" 
+			<path id="B06" class="st27"  style=""
+				d="M394.8,202.2h-3.6l-30.8,38.3l-24.7,54.6l21.6-11.5l32.2-50.4L394.8,202.2z" />
+			<path id="B05" class="st28"  style=""
+				d="M329.8,246.7l4.2,47.9l21-47.6l7.9-45.4L352.5,189l-14.8,12.6L329.8,246.7z" />
+			<path id="B04" class="st29"  style=""
+				d="M332.4,295.1l-5.1-50.9l-19.9-42h-1.6l-5.4,31l14.3,50.4L332.4,295.1z" />
+			<path id="B03" class="st30"  style=""
 				d="M289,283.1l14.6-81.2l-16-19.3c-4.2,3.9-7.8,9.5-8.7,15.7l-15.1,84.8l10.4,12.6L289,283.1z" />
-			<path id="B02" class="st31" onclick="_switch(this.id)" style="" 
+			<path id="B02" class="st31"  style=""
 				d="M395.6,199.9l22.7-19.3c-3.4-3.9-8.7-6.2-14.6-6.2h-33.9L355,187l10.4,12.6L395.6,199.9z" />
-			<path id="B01" class="st32" onclick="_switch(this.id)" style="" 
+			<path id="B01" class="st32"  style=""
 				d="M336.3,199.6l14.8-12.6l-10.4-12.6h-33.9c-5.9,0-12.3,2.2-16.8,6.2l16,19.3L336.3,199.6z" />
 		</g>
 		<g id="A">
-			<path id="A16" class="st17" onclick="_switch(this.id)" style="" 
+			<path id="A16" class="st17"  style=""
 				d="M155.7,395.6l-14.8,12.6l10.4,12.6h33.9c5.9,0,12.3-2.2,16.8-6.2l-16-19.3L155.7,395.6z" />
-			<path id="A15" class="st18" onclick="_switch(this.id)" style="" 
+			<path id="A15" class="st18"  style=""
 				d="M96.3,395.4l-22.7,19.3c3.4,3.9,8.7,6.2,14.6,6.2h33.9l14.8-12.6l-10.4-12.6L96.3,395.4z" />
-			<path id="A14" class="st19" onclick="_switch(this.id)"  style="" 
+			<path id="A14" class="st19"  style=""
 				d="M203,312.2l-14.6,81.2l16,19.3c4.2-3.9,7.8-9.5,8.7-15.7l15.1-84.8l-10.4-12.3L203,312.2z" />
-			<path id="A13" class="st20"  onclick="_switch(this.id)"  style="" d="M164.6,351.1l19.9,42h1.7l5.3-31.1l-14.3-50.4l-17.6-11.4L164.6,351.1z" />
-			<path id="A12" class="st21" onclick="_switch(this.id)"  style="" 
+			<path id="A13" class="st20"  style=""
+				d="M164.6,351.1l19.9,42h1.7l5.3-31.1l-14.3-50.4l-17.6-11.4L164.6,351.1z" />
+			<path id="A12" class="st21"  style=""
 				d="M162.1,348.6l-4.2-47.9l-21,47.6l-7.8,45.4l10.3,12.6l14.9-12.6L162.1,348.6z" />
-			<path id="A11" class="st22"  onclick="_switch(this.id)"  style="" d="M97.2,393.1h3.6l30.8-38.3l24.6-54.6l-21.5,11.4L102.5,362L97.2,393.1z" />
-			<path id="A10" class="st23" onclick="_switch(this.id)"  style="" 
+			<path id="A11" class="st22"  style=""
+				d="M97.2,393.1h3.6l30.8-38.3l24.6-54.6l-21.5,11.4L102.5,362L97.2,393.1z" />
+			<path id="A10" class="st23"  style=""
 				d="M72.2,412.7l22.7-19.3l14-81.2l-10.4-12.6l-14.8,12.6L68.6,397C67.8,403.2,69.2,408.8,72.2,412.7z" />
-			<path id="A09" class="st24"  onclick="_switch(this.id)"  style="" d="M179.2,310.2h22.1l14.9-12.6L205.8,285h-22.1l-23.5,12.6L179.2,310.2z" />
-			<path id="A08" class="st25"  onclick="_switch(this.id)"  style="" d="M100.8,297.6l10.4,12.6h22.1l23.5-12.6l-19-12.6h-22.2L100.8,297.6z" />
-			<path id="A07" class="st26" onclick="_switch(this.id)"  style="" 
+			<path id="A09" class="st24"  style=""
+				d="M179.2,310.2h22.1l14.9-12.6L205.8,285h-22.1l-23.5,12.6L179.2,310.2z" />
+			<path id="A08" class="st25"  style=""
+				d="M100.8,297.6l10.4,12.6h22.1l23.5-12.6l-19-12.6h-22.2L100.8,297.6z" />
+			<path id="A07" class="st26"  style=""
 				d="M208,283.1l10.4,12.6l14.8-12.6l15.1-84.8c0.8-6.2-0.6-11.8-3.6-15.7L222,201.9L208,283.1z" />
-			<path id="A06" class="st27"  onclick="_switch(this.id)"  style="" d="M219.8,202.2h-3.6l-30.8,38.3l-24.7,54.6l21.6-11.5l32.2-50.4L219.8,202.2z" />
-			<path id="A05" class="st28"  onclick="_switch(this.id)"  style="" d="M154.8,246.7l4.2,47.9l21-47.6l7.9-45.4L177.5,189l-14.8,12.6L154.8,246.7z" />
-			<path id="A04" class="st29"  onclick="_switch(this.id)"  style="" d="M157.4,295.1l-5.1-50.9l-19.9-42h-1.6l-5.4,31l14.3,50.4L157.4,295.1z" />
-			<path id="A03" class="st30" onclick="_switch(this.id)"  style="" 
+			<path id="A06" class="st27"  style=""
+				d="M219.8,202.2h-3.6l-30.8,38.3l-24.7,54.6l21.6-11.5l32.2-50.4L219.8,202.2z" />
+			<path id="A05" class="st28"  style=""
+				d="M154.8,246.7l4.2,47.9l21-47.6l7.9-45.4L177.5,189l-14.8,12.6L154.8,246.7z" />
+			<path id="A04" class="st29"  style=""
+				d="M157.4,295.1l-5.1-50.9l-19.9-42h-1.6l-5.4,31l14.3,50.4L157.4,295.1z" />
+			<path id="A03" class="st30"  style=""
 				d="M114,283.1l14.6-81.2l-16-19.3c-4.2,3.9-7.8,9.5-8.7,15.7l-15.1,84.8l10.4,12.6L114,283.1z" />
-			<path id="A02" class="st31" onclick="_switch(this.id)"  style="" 
+			<path id="A02" class="st31"  style=""
 				d="M220.6,199.9l22.7-19.3c-3.4-3.9-8.7-6.2-14.6-6.2h-33.9L180,187l10.4,12.6L220.6,199.9z" />
-			<path id="A01" class="st32" onclick="_switch(this.id)"  style="" 
+			<path id="A01" class="st32"  style=""
 				d="M161.3,199.6l14.8-12.6l-10.4-12.6h-33.9c-5.9,0-12.3,2.2-16.8,6.2l16,19.3L161.3,199.6z" />
 		</g>
 	</g>
 	<script type="text/javascript">
 		<![CDATA[
-		function turn(id, state) 
-		{
+		var pos = ['A', 'B', 'C', 'D'];
+		var funcs = [A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z];
+
+		var current_pos = 0;
+		var current_letter = 0;
+
+		document.addEventListener('click', event => {
+			current_pos++;
+			if (current_pos == pos.length+1) {
+				current_pos = 0;
+			}
+		});
+
+		function loop() {
+			setTimeout(function () {
+				if(current_pos < pos.length) {
+					for (var i = 0; i < pos.length-current_pos; i++) {
+						funcs[current_letter](pos[current_pos + i]);
+					}
+					current_letter++;
+					if (current_letter == funcs.length) {
+						current_letter = 0;
+					}
+				}
+				loop();
+			}, 100);
+		};
+
+		loop();
+
+
+		function turn(id, state) {
 			if (state) document.getElementById(id).setAttribute('style', "");
 			else document.getElementById(id).setAttribute('style', "visibility:hidden;");
 		}
 
-		function _switch(id)
-		{
-			if(document.getElementById(id).getAttribute('style') == "") document.getElementById(id).setAttribute('style', "opacity:0%;");
+		function _switch(id) {
+			if (document.getElementById(id).getAttribute('style') == "") document.getElementById(id).setAttribute('style',
+				"opacity:0%;");
 			else document.getElementById(id).setAttribute('style', "");
 		}
 
@@ -879,8 +939,6 @@
 			turn(x + "15", true);
 			turn(x + "16", true);
 		}
-
-
 
 
 		function a(x) {
