@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: donnoh.codes
-Token: 935d3fa553a039f75bb766358a6c2802a2cd1d1998652c241253ea1f954c1891

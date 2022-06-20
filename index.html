@@ -6,213 +6,69 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Donnoh</title>
 	<link rel="icon" href="style/favicon.png" type="image/png" />
-	<meta name="description" content="Luca Donno (Donnoh) personal site.">
+	<meta name="description" content="donnoh personal website">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono&display=swap" rel="stylesheet"> 
 	<link rel="stylesheet" href="style/style.css">
-	<link rel="author" href=".well-known/brave-rewards-verification.txt">
 	<link rel="manifest" href="manifest.json">
 </head>
 
-<body class>
-
+<body>
 	<main>
-		<a id="moon-toggle" href="">☾</a>
-		<div class="logo">
-			<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 371.27 190.46">
-				<title>donno</title>
-				<path class="cls-1"
-					d="M233,347.51c-3.4,38.53-22.15,75.09-51,100.82-7.27,6.51-15.53,13.38-24.58,17.23-4.6,2-9.87,3-14.36.2-4.09-2.54-6.55-7.15-8-11.58-6.94-20.49,1.06-44.79,9-63.91a182.19,182.19,0,0,1,31.12-49.86c12.66-14.45,28.5-29.64,46.53-37,9.12-3.74,20.25-5.23,28.28,1.73,6.81,5.92,9.47,15.58,10.41,24.23,2,18.6-1.78,37.84-8.85,55a150,150,0,0,1-31.94,47.51c-13.84,14.08-30.55,26.73-49.18,33.67-17.86,6.65-40,8.52-54.57-6.09-12-12-15-31.06-10.56-47,4.73-17,20.27-34.19,39.37-32.11,20.63,2.26,37.32,23.38,48.07,39.34,5.51,8.17,9.65,17,14.44,25.55,4,7.08,8.93,14.57,16.25,18.54,8.47,4.59,17.3,2.89,25.61-1.13,4.56-2.2,8.86-4.81,13.79-6.19A52.26,52.26,0,0,1,279.29,455c10.44.47,20.7,2.76,31.07,3.89a83.88,83.88,0,0,0,31.81-2.5c11.34-3.08,21.77-5.49,33.6-3.7,11.45,1.74,22.43,5.62,33.74,8,9.64,2,19.55,3,29.32,1.45,8.36-1.31,19.15-5.12,24-12.61,5.25-8.13-1.38-16.5-8-21.2-7.54-5.31-17.1-7-26.11-5.65-9.75,1.47-18.29,6.38-25.81,12.56-5,4.09,2.13,11.13,7.07,7.07,8.37-6.88,19.49-12,30.51-9.5a23,23,0,0,1,12,6.67c2.07,2.27,3.06,3.69.66,6a25.2,25.2,0,0,1-8.12,4.77c-21.69,8.53-45.19-3.84-66.59-7.17-12-1.87-23-.72-34.66,2.51s-22.2,4.62-34.25,3.24c-11.17-1.28-22.24-3.85-33.52-3.89-11.67-.05-21,3.68-31.25,8.77-4.36,2.16-9.22,4-14.08,2.42-4.43-1.46-7.82-5.15-10.48-8.84-5.81-8.09-9.47-17.55-14.61-26-11-18.1-26.36-37.9-46.12-46.82-18.85-8.52-39.08-2.42-52.06,13.23A62,62,0,0,0,95,440.68c4.08,18.19,17.11,33.34,35.39,38.17,20.43,5.4,42.37-1.67,60.17-11.76,35.21-19.95,64.14-54.45,75.37-93.52,5.24-18.22,7.74-39.82,1.75-58.18-2.81-8.63-8-16.79-16.07-21.29-9.32-5.19-20.41-4.65-30.22-1.2-19.58,6.88-36.84,22.44-50.64,37.53a193,193,0,0,0-33.94,51.68c-8.76,19.76-16.45,42.77-13.58,64.63,1.32,10,5,20.79,13.67,26.86,8.92,6.28,19.83,3.89,28.79-1C183.5,463,198.9,447.5,211,431.42a164.89,164.89,0,0,0,26.71-54.15A162.49,162.49,0,0,0,243,347.51c.56-6.41-9.44-6.37-10,0Z"
-					transform="translate(-93.44 -290.25)" />
-			</svg>
-		</div>
-		<h1 class="title">Hi, I'm Donnoh.</h1>
-		<h2 class="desc">Full stack developer focusing on solving problems through brute force and excessive code.
-		</h2>
-		<!-- 1. Place the button somewhere in your HTML -->
-		<div id="nano-button"></div>
-
-		<!-- 2. Add the BrainBlocks script -->
-		<script src="https://brainblocks.io/brainblocks.min.js"></script>
-
-		<!-- 3. Render the button -->
-		<script type="text/javascript">
-			// Render the Nano button
-			brainblocks.Button.render({
-
-				// Pass in payment options
-				payment: {
-					currency: 'rai',
-					amount: '1000',
-					destination: 'nano_1ir9w3ujkop17eir9a9brer4bbo33g9q81aw6xe7n4gueupndq48h4wmqmn7'
-				},
-
-				// Handle successful payments
-				onPayment: function (data) {
-					// 4. Call BrainBlocks API to verify data.token
-					// See tab #2
-				}
-			}, '#nano-button');
-		</script>
-		<footer class="links">
-			<a href="https://www.twitter.com/lucadonnoh" aria-label="Twitter" rel="noopener" target="_blank">
-				<svg viewBox="0 0 24 24">
-					<path fill="#1da1f2"
-						d="M22.46,6C21.69,6.35 20.86,6.58 20,6.69C20.88,6.16 21.56,5.32 21.88,4.31C21.05,4.81 20.13,5.16 19.16,5.36C18.37,4.5 17.26,4 16,4C13.65,4 11.73,5.92 11.73,8.29C11.73,8.63 11.77,8.96 11.84,9.27C8.28,9.09 5.11,7.38 3,4.79C2.63,5.42 2.42,6.16 2.42,6.94C2.42,8.43 3.17,9.75 4.33,10.5C3.62,10.5 2.96,10.3 2.38,10C2.38,10 2.38,10 2.38,10.03C2.38,12.11 3.86,13.85 5.82,14.24C5.46,14.34 5.08,14.39 4.69,14.39C4.42,14.39 4.15,14.36 3.89,14.31C4.43,16 6,17.26 7.89,17.29C6.43,18.45 4.58,19.13 2.56,19.13C2.22,19.13 1.88,19.11 1.54,19.07C3.44,20.29 5.7,21 8.12,21C16,21 20.33,14.46 20.33,8.79C20.33,8.6 20.33,8.42 20.32,8.23C21.16,7.63 21.88,6.87 22.46,6Z">
-					</path>
-				</svg>
-			</a>
-			<a href="https://www.github.com/lucadonnoh" aria-label="Github" rel="noopener" target="_blank">
-				<svg class="github" viewBox="0 0 24 24">
-					<path
-						d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z">
-					</path>
-
-				</svg>
-			</a>
-			<a href="https://www.instagram.com/lucadonnoh" aria-label="Instagram" rel="noopener" target="_blank">
-
-				<svg class="instagram" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-					xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 551.034 551.034"
-					style="enable-background:new 0 0 551.034 551.034;" xml:space="preserve">
-					<g>
-
-						<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="275.517" y1="4.57" x2="275.517"
-							y2="549.72" gradientTransform="matrix(1 0 0 -1 0 554)">
-							<stop offset="0" style="stop-color:#E09B3D" />
-							<stop offset="0.3" style="stop-color:#C74C4D" />
-							<stop offset="0.6" style="stop-color:#C21975" />
-							<stop offset="1" style="stop-color:#7024C4" />
-						</linearGradient>
-						<path style="fill:url(#SVGID_1_);" d="M386.878,0H164.156C73.64,0,0,73.64,0,164.156v222.722
-			c0,90.516,73.64,164.156,164.156,164.156h222.722c90.516,0,164.156-73.64,164.156-164.156V164.156
-			C551.033,73.64,477.393,0,386.878,0z M495.6,386.878c0,60.045-48.677,108.722-108.722,108.722H164.156
-			c-60.045,0-108.722-48.677-108.722-108.722V164.156c0-60.046,48.677-108.722,108.722-108.722h222.722
-			c60.045,0,108.722,48.676,108.722,108.722L495.6,386.878L495.6,386.878z" />
-
-						<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="275.517" y1="4.57" x2="275.517"
-							y2="549.72" gradientTransform="matrix(1 0 0 -1 0 554)">
-							<stop offset="0" style="stop-color:#E09B3D" />
-							<stop offset="0.3" style="stop-color:#C74C4D" />
-							<stop offset="0.6" style="stop-color:#C21975" />
-							<stop offset="1" style="stop-color:#7024C4" />
-						</linearGradient>
-						<path style="fill:url(#SVGID_2_);" d="M275.517,133C196.933,133,133,196.933,133,275.516s63.933,142.517,142.517,142.517
-			S418.034,354.1,418.034,275.516S354.101,133,275.517,133z M275.517,362.6c-48.095,0-87.083-38.988-87.083-87.083
-			s38.989-87.083,87.083-87.083c48.095,0,87.083,38.988,87.083,87.083C362.6,323.611,323.611,362.6,275.517,362.6z" />
-
-						<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="418.31" y1="4.57" x2="418.31"
-							y2="549.72" gradientTransform="matrix(1 0 0 -1 0 554)">
-							<stop offset="0" style="stop-color:#E09B3D" />
-							<stop offset="0.3" style="stop-color:#C74C4D" />
-							<stop offset="0.6" style="stop-color:#C21975" />
-							<stop offset="1" style="stop-color:#7024C4" />
-						</linearGradient>
-						<circle style="fill:url(#SVGID_3_);" cx="418.31" cy="134.07" r="34.15" />
-					</g>
-					<g>
-					</g>
-					<g>
-					</g>
-					<g>
-					</g>
-					<g>
-					</g>
-					<g>
-					</g>
-					<g>
-					</g>
-					<g>
-					</g>
-					<g>
-					</g>
-					<g>
-					</g>
-					<g>
-					</g>
-					<g>
-					</g>
-					<g>
-					</g>
-					<g>
-					</g>
-					<g>
-					</g>
-					<g>
-					</g>
-				</svg>
-			</a>
-		</footer>
-
+        <header>
+            <h1 id="name">donnoh</h1>
+            <p>CS student focused on scaling blockchains</p>
+            <section>
+                <ul id="links">
+                    <li><a href="https://twitter.com/donnoh_eth">twitter</a></li>
+                    <li><a href="https://github.com/lucadonnoh">github</a></li>
+                </ul>
+            </section>
+        </header>
+        <section>
+            <h2>CURRENT FOCUS</h2>
+            <ul>
+                <li>
+                    bachelor's thesis about optimistic vs zk rollup
+                    <ul>
+                        <li>studying <a href="https://github.com/ethereum-optimism/optimism/tree/develop/specs">Optimism Bedrock</a> specs</li>
+                    </ul>
+                </li>
+                <li>
+                    studying cairo development
+                    <ul>
+                        <li><a href="https://github.com/lucadonnoh/starklings">starklings solutions</a></li>
+                        <li>StarkBlocks: generative art contracts for StarkNet</li>
+                        <li>Graphix: a graph library for StarkNet</li>
+                    </ul>
+                </li>
+                <li> <a href="https://radicle.community/t/drips-cli-sdk-tutorial-for-node-js/2839">drip-cli</a>: open drips via the cli for Radicle</li>
+                <li>NFT data aggregator using <a href="https://docs.zora.co/docs/zora-api/zdk">zora zdk</a></li>
+            </ul>
+        </section>
+        <section>
+            <h2>PROJECTS</h2>
+            <ul>
+                <li><a href="https://scalability.guide">scalability.guide</a>: articles about scaling technologies</li>
+                <li><a href="https://zang.gallery">zang.gallery</a>: a text-based NFT platform</li>
+                <li><a href="https://github.com/lucadonnoh/awesome-blockchain-scalability">awesome blockchain scalability</a> repo</li>
+                <li><a href="https://niftyvalue.com">NiftyValue</a> Art Blocks integration</li>
+            </ul>
+        </section>
+        <section>
+            <h2>PUBLICATIONS</h2>
+            <ul>
+                <li><a href="https://arxiv.org/abs/2202.00003">Green NFTs: A Study on the Environmental Impact of Cryptoart Technologies</a></li>
+            </ul>
+        </section>
+        <section>
+            <h2>OTHER</h2>
+            tbd
+        </section>
+       
 	</main>
-
-
-	<main class="projects">
-		<div class="arrows">
-			<div class="arrow-left arrow"></div>
-			<div class="arrow-right arrow"></div>
-		</div>
-		<div class="titleContainer">
-			<h1 class="title">My projects</h1>
-		</div>
-
-		<div class="container">
-			<div class="cards">
-				<div class="card">
-					<div class="circle">💸</div>
-					<h4>Ethstarter</h4>
-					<h5>Crowdfunding platform powered by Ethereum</h5>
-					<button class="openlink">View on Github</button>
-				</div>
-				<div class="card">
-					<div class="circle">📽</div>
-					<h4>Reactube</h4>
-					<h5>Youtube clone made with React</h5>
-					<button class="openlink">View on Github</button>
-				</div>
-				<div class="card">
-					<div class="circle">🤑</div>
-					<h4>Lethery</h4>
-					<h5>Lottery powered by Ethereum</h5>
-					<button class="openlink">View on Github</button>
-				</div>
-
-
-				<div class="card">
-					<div class="circle">⚒</div>
-					<h4>In corso...</h4>
-					<h5>Qualcosa, probabilmente con Ethereum lol</h5>
-					<button class="openlink">View on Github</button>
-				</div>
-				<div class="card">
-					<div class="circle">⚒</div>
-					<h4>In corso...</h4>
-					<h5>Qualcosa, probabilmente con Ethereum lol</h5>
-					<button class="openlink">View on Github</button>
-				</div>
-				<div class="card">
-					<div class="circle">⚒</div>
-					<h4>In corso...</h4>
-					<h5>Qualcosa, probabilmente con Ethereum lol</h5>
-					<button class="openlink">View on Github</button>
-				</div>
-				<div class="card">
-					<div class="circle">⚒</div>
-					<h4>In corso...</h4>
-					<h5>Qualcosa, probabilmente con Ethereum lol</h5>
-					<button class="openlink">View on Github</button>
-				</div>
-				<div class="card">
-					<div class="circle">⚒</div>
-					<h4>In corso...</h4>
-					<h5>Qualcosa, probabilmente con Ethereum lol</h5>
-					<button class="openlink">View on Github</button>
-				</div>
-			</div>
-		</div>
-	</main>
-
-	<script src="script.js" async defer></script>
 </body>
 
 </html>
