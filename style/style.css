@@ -2,8 +2,18 @@ html {
     font-family: 'DM Mono', monospace;
 }
 
+/*make the main centered*/
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 main {
     margin: 2em;
+    display: flex;
+    flex-direction: column;
+    max-width: 100ch;
 }
 
 a {
