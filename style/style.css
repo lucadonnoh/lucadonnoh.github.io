@@ -40,3 +40,8 @@ li li {
 #links li {
     margin-bottom: 0;
 }
+
+small {
+    width: 100%;
+    text-align: right;
+}
