@@ -7,6 +7,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 main {
@@ -22,6 +25,21 @@ a {
 
 a:visited {
     color: blue
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #0a0a0a;
+        color: #e0e0e0;
+    }
+
+    a {
+        color: #6db3ff;
+    }
+
+    a:visited {
+        color: #6db3ff;
+    }
 }
 
 #name {
