@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cento Ducati English</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#vocabulary" aria-label="Cento Ducati English home">
+        <span>
+          <strong>Cento Ducati English</strong>
+          <small>Porto Cesareo</small>
+        </span>
+      </a>
+
+      <nav class="tabs" aria-label="Main pages">
+        <a class="tab is-active" href="#vocabulary" data-route="vocabulary">Vocabulary</a>
+        <a class="tab" href="#time" data-route="time">Time</a>
+        <a class="tab" href="#phrases" data-route="phrases">Phrases</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page is-visible" id="page-vocabulary" aria-labelledby="vocabulary-title">
+        <div class="page-heading">
+          <div>
+            <p class="eyebrow">Restaurant English</p>
+            <h1 id="vocabulary-title">Vocabulary</h1>
+          </div>
+          <label class="search">
+            <span class="sr-only">Search vocabulary</span>
+            <input id="vocabulary-search" type="search" placeholder="Search" autocomplete="off">
+          </label>
+        </div>
+        <div class="section-list" id="vocabulary-list"></div>
+      </section>
+
+      <section class="page" id="page-time" aria-labelledby="time-title">
+        <div class="page-heading">
+          <div>
+            <p class="eyebrow">Clock And Service</p>
+            <h1 id="time-title">Time</h1>
+          </div>
+        </div>
+        <div class="time-layout">
+          <article class="clock-card">
+            <div class="clock" aria-hidden="true">
+              <span class="tick t12">12</span>
+              <span class="tick t3">3</span>
+              <span class="tick t6">6</span>
+              <span class="tick t9">9</span>
+              <span class="hand hour"></span>
+              <span class="hand minute"></span>
+              <span class="pin"></span>
+            </div>
+            <div>
+              <h2>Reading The Clock</h2>
+              <p>English uses "o'clock", "quarter past", "half past", and "quarter to" often in conversation.</p>
+            </div>
+          </article>
+          <div class="section-list" id="time-list"></div>
+        </div>
+      </section>
+
+      <section class="page" id="page-phrases" aria-labelledby="phrases-title">
+        <div class="page-heading">
+          <div>
+            <p class="eyebrow">Customer Conversation</p>
+            <h1 id="phrases-title">Common Phrases</h1>
+          </div>
+          <label class="search">
+            <span class="sr-only">Search phrases</span>
+            <input id="phrase-search" type="search" placeholder="Search" autocomplete="off">
+          </label>
+        </div>
+        <div class="section-list" id="phrase-list"></div>
+      </section>
+    </main>
+
+    <template id="accordion-template">
+      <section class="accordion">
+        <button class="accordion-toggle" type="button" aria-expanded="false">
+          <span class="accordion-title">
+            <span class="accordion-title-en"></span>
+            <span class="accordion-title-it"></span>
+          </span>
+          <span class="accordion-count"></span>
+          <span class="chevron" aria-hidden="true"></span>
+        </button>
+        <div class="accordion-panel"></div>
+      </section>
+    </template>
+
+    <template id="row-template">
+      <article class="term-row">
+        <button class="play" type="button" aria-label="Play pronunciation">
+          <span aria-hidden="true"></span>
+        </button>
+        <div class="term-copy">
+          <strong class="english"></strong>
+          <span class="italian"></span>
+        </div>
+      </article>
+    </template>
+
+    <script src="app.js"></script>
+  </body>
+</html>
