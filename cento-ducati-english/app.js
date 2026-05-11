@@ -46,7 +46,7 @@ const vocabularySections = [
       ["Do you have a table for two?", "Avete un tavolo per due?"],
       ["What do you recommend?", "Cosa consiglia?"],
       ["Is this spicy?", "E piccante?"],
-      ["Is this vegetarian?", "E vegetariano?"],
+      ["Is this vegetarian?", "E vegetariano?", "Is this vej uh tair ee un?"],
       ["Does this have gluten?", "Contiene glutine?"],
       ["Does this have nuts?", "Contiene frutta secca?"],
       ["Can I have the bill?", "Posso avere il conto?"],
@@ -85,7 +85,7 @@ const vocabularySections = [
       ["Prawns", "Gamberoni"],
       ["Squid", "Calamari"],
       ["Octopus", "Polpo"],
-      ["Sea bass", "Spigola"],
+      ["Sea bass", "Spigola", "sea bass fish"],
       ["Sea bream", "Orata"],
       ["Tuna", "Tonno"],
       ["Swordfish", "Pesce spada"],
@@ -146,7 +146,7 @@ const vocabularySections = [
       ["Allergic", "Allergico"],
       ["Gluten-free", "Senza glutine"],
       ["Dairy-free", "Senza latticini"],
-      ["Vegetarian", "Vegetariano"],
+      ["Vegetarian", "Vegetariano", "vej uh tair ee un"],
       ["Vegan", "Vegano"],
       ["Nuts", "Frutta secca"],
       ["Peanuts", "Arachidi"],
@@ -370,14 +370,14 @@ function speak(text, button) {
   window.speechSynthesis.speak(utterance);
 }
 
-function createRow([english, italian]) {
+function createRow([english, italian, pronunciation]) {
   const template = document.querySelector("#row-template");
   const row = template.content.firstElementChild.cloneNode(true);
   const playButton = row.querySelector(".play");
   row.querySelector(".english").textContent = english;
   row.querySelector(".italian").textContent = italian;
   playButton.setAttribute("aria-label", `Play pronunciation for ${english}`);
-  playButton.addEventListener("click", () => speak(english, playButton));
+  playButton.addEventListener("click", () => speak(pronunciation || english, playButton));
   return row;
 }
 
