@@ -69,7 +69,7 @@ input {
 .tabs {
   display: flex;
   gap: 8px;
-  width: min(100%, 720px);
+  width: min(100%, 1120px);
   padding: 5px;
   border: 1px solid rgba(36, 48, 47, 0.1);
   border-radius: 999px;
