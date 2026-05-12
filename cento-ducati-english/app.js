@@ -39,22 +39,6 @@ const vocabularySections = [
     ]
   },
   {
-    title: "Questions From Customers",
-    titleIt: "Domande dei clienti",
-    items: [
-      ["Can we sit outside?", "Possiamo sederci fuori?"],
-      ["Do you have a table for two?", "Avete un tavolo per due?"],
-      ["What do you recommend?", "Cosa consiglia?"],
-      ["Is this spicy?", "E piccante?"],
-      ["Is this vegetarian?", "E vegetariano?", "Is this veh juh tair ee un?"],
-      ["Does this have gluten?", "Contiene glutine?"],
-      ["Does this have nuts?", "Contiene frutta secca?"],
-      ["Can I have the bill?", "Posso avere il conto?"],
-      ["Can we pay separately?", "Possiamo pagare separatamente?"],
-      ["Where is the bathroom?", "Dov'e il bagno?"]
-    ]
-  },
-  {
     title: "Food Categories",
     titleIt: "Categorie del menu",
     items: [
@@ -335,17 +319,26 @@ const phraseSections = [
     title: "What Customers Say",
     titleIt: "Cosa dicono i clienti",
     items: [
+      ["Can we sit outside?", "Possiamo sederci fuori?"],
+      ["Do you have a table for two?", "Avete un tavolo per due?"],
       ["Do you have a table for four?", "Avete un tavolo per quattro?"],
       ["We have a reservation under Smith.", "Abbiamo una prenotazione a nome Smith."],
       ["Can we see the menu?", "Possiamo vedere il menu?"],
       ["Can we order now?", "Possiamo ordinare adesso?"],
       ["What is the special today?", "Qual e il piatto del giorno?"],
+      ["What do you recommend?", "Cosa consiglia?"],
       ["Can you recommend a local dish?", "Puo consigliare un piatto locale?"],
       ["Is the fish fresh?", "Il pesce e fresco?"],
+      ["Is this spicy?", "E piccante?"],
+      ["Is this vegetarian?", "E vegetariano?", "Is this veh juh tair ee un?"],
+      ["Does this have gluten?", "Contiene glutine?"],
+      ["Does this have nuts?", "Contiene frutta secca?"],
       ["Can I have some more bread?", "Posso avere altro pane?"],
       ["Can we have another bottle of water?", "Possiamo avere un'altra bottiglia d'acqua?"],
       ["Everything was delicious.", "Era tutto delizioso."],
-      ["Can we have the bill, please?", "Possiamo avere il conto, per favore?"]
+      ["Can we have the bill, please?", "Possiamo avere il conto, per favore?"],
+      ["Can we pay separately?", "Possiamo pagare separatamente?"],
+      ["Where is the bathroom?", "Dov'e il bagno?"]
     ]
   },
   {
