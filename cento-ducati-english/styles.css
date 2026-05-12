@@ -311,103 +311,6 @@ h2 {
   line-height: 1.35;
 }
 
-.time-layout {
-  display: grid;
-  grid-template-columns: 340px minmax(0, 1fr);
-  gap: 18px;
-  align-items: start;
-}
-
-.clock-card {
-  position: sticky;
-  top: 104px;
-  display: grid;
-  gap: 20px;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.84);
-  box-shadow: var(--shadow);
-  padding: 24px;
-}
-
-.clock-card p {
-  margin-bottom: 0;
-  color: var(--muted);
-  line-height: 1.55;
-}
-
-.clock {
-  position: relative;
-  width: min(240px, 100%);
-  aspect-ratio: 1;
-  margin: 0 auto;
-  border: 9px solid var(--sage-dark);
-  border-radius: 50%;
-  background: radial-gradient(circle, #fff 0 62%, #f5f1e8 63% 100%);
-}
-
-.tick {
-  position: absolute;
-  color: var(--ink);
-  font-weight: 800;
-}
-
-.t12 {
-  top: 15px;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.t3 {
-  top: 50%;
-  right: 18px;
-  transform: translateY(-50%);
-}
-
-.t6 {
-  bottom: 14px;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.t9 {
-  top: 50%;
-  left: 18px;
-  transform: translateY(-50%);
-}
-
-.hand {
-  position: absolute;
-  left: 50%;
-  bottom: 50%;
-  width: 6px;
-  border-radius: 999px;
-  background: var(--ink);
-  transform-origin: bottom center;
-}
-
-.hand.hour {
-  height: 58px;
-  transform: translateX(-50%) rotate(45deg);
-}
-
-.hand.minute {
-  height: 82px;
-  width: 4px;
-  background: var(--tomato);
-  transform: translateX(-50%) rotate(270deg);
-}
-
-.pin {
-  position: absolute;
-  inset: 50% auto auto 50%;
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
-  background: var(--sun);
-  transform: translate(-50%, -50%);
-}
-
 .sr-only {
   position: absolute;
   width: 1px;
@@ -455,13 +358,5 @@ h2 {
     grid-template-columns: 42px minmax(0, 1fr);
     gap: 12px;
     padding: 12px 14px;
-  }
-
-  .time-layout {
-    grid-template-columns: 1fr;
-  }
-
-  .clock-card {
-    position: static;
   }
 }
