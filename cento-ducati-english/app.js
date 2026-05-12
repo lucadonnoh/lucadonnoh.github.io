@@ -97,6 +97,79 @@ const vocabularySections = [
     ]
   },
   {
+    title: "Cento Ducati Seafood Dishes",
+    titleIt: "Piatti di pesce Cento Ducati",
+    items: [
+      ["Fried octopus", "Frittura di polpo"],
+      ["Fried calamari and shrimp", "Frittura di calamari e gamberi"],
+      ["Sauteed mussels", "Saute di cozze"],
+      ["Pasta with mussels and clams", "Pasta con cozze e vongole"],
+      ["Cavatelli with blue crab sauce", "Cavatelli al sugo di granchio blu"],
+      ["Swordfish and prawns", "Pesce spada e gamberoni"],
+      ["Grilled cuttlefish and prawns", "Seppia e gamberoni alla griglia"]
+    ]
+  },
+  {
+    title: "Cento Ducati Starters",
+    titleIt: "Antipasti Cento Ducati",
+    items: [
+      ["Eggplant parmigiana", "Parmigiana di melanzane"],
+      ["Mixed fried starters", "Frittino misto"],
+      ["Potato croquettes", "Crocchette di patate"],
+      ["Pittule mix", "Pittule mix"],
+      ["Grilled artichokes", "Carciofi grigliati"],
+      ["Mixed bruschetta", "Bruschette miste"],
+      ["Caramelized onion", "Cipolla caramellata"],
+      ["Grilled and steamed vegetables", "Verdure grigliate e al vapore"],
+      ["Cold cuts and cheese board", "Tagliere salumi e formaggi"],
+      ["Fava beans and chicory", "Fave e cicorie"],
+      ["Fried lampascioni", "Lampascioni fritti"]
+    ]
+  },
+  {
+    title: "Cento Ducati Pasta Dishes",
+    titleIt: "Primi piatti Cento Ducati",
+    items: [
+      ["Tagliatelle with sausage, mushrooms, and gorgonzola", "Tagliatelle salsiccia, funghi e gorgonzola"],
+      ["Orecchiette with local turnip greens", "Orecchiette con cime di rapa locali"],
+      ["Laganari with sausage, tomatoes, and stracciatella", "Laganari con salsiccia, pomodori e stracciatella"],
+      ["Orecchiette with meatballs in tomato sauce", "Orecchiette al sugo con polpette"],
+      ["Ciceri e tria", "Ciceri e tria"],
+      ["Maritati with horse meat sauce", "Maritati con sugo e pezzetti di cavallo"],
+      ["Lecce-style lasagna", "Lasagna leccese"]
+    ]
+  },
+  {
+    title: "Cento Ducati Meat Dishes",
+    titleIt: "Piatti di carne Cento Ducati",
+    items: [
+      ["Local foal steak", "Bistecca di puledro locale"],
+      ["Local foal fillet", "Filetto di puledro locale"],
+      ["Florentine steak with fillet", "Fiorentina con filetto"],
+      ["Chianina beef entrecote", "Entrecote di scottona chianina"],
+      ["Podolica beef steak", "Bistecca di podolica"],
+      ["Sliced Podolica beef", "Tagliata di manzo podolica"],
+      ["Podolica beef strips", "Straccetti di manzo podolica"],
+      ["Horse meat stew", "Pezzetti di cavallo"],
+      ["Mixed grill", "Grigliata mista"],
+      ["Bombette", "Bombette tipiche"],
+      ["House sausage", "Salsiccia della casa"],
+      ["Horse meatballs", "Polpette di cavallo"],
+      ["Chicken cutlet with fries", "Cotoletta di pollo con patatine fritte"]
+    ]
+  },
+  {
+    title: "Cento Ducati Desserts",
+    titleIt: "Dolci Cento Ducati",
+    items: [
+      ["Mixed fruit", "Frutta mix"],
+      ["Homemade tiramisu", "Tiramisu artigianale"],
+      ["Spumone with figs and walnuts", "Spumone fichi e noci"],
+      ["Hazelnut and pistachio spumone", "Spumone nocciola e pistacchio"],
+      ["Hazelnut and chocolate spumone", "Spumone nocciola e cioccolato"]
+    ]
+  },
+  {
     title: "Drinks",
     titleIt: "Bevande",
     items: [
