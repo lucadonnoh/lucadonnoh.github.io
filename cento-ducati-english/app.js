@@ -46,7 +46,7 @@ const vocabularySections = [
       ["Do you have a table for two?", "Avete un tavolo per due?"],
       ["What do you recommend?", "Cosa consiglia?"],
       ["Is this spicy?", "E piccante?"],
-      ["Is this vegetarian?", "E vegetariano?", "Is this vej uh tair ee un?"],
+      ["Is this vegetarian?", "E vegetariano?", "Is this veh juh tair ee un?"],
       ["Does this have gluten?", "Contiene glutine?"],
       ["Does this have nuts?", "Contiene frutta secca?"],
       ["Can I have the bill?", "Posso avere il conto?"],
@@ -85,7 +85,7 @@ const vocabularySections = [
       ["Prawns", "Gamberoni"],
       ["Squid", "Calamari"],
       ["Octopus", "Polpo"],
-      ["Sea bass", "Spigola", "sea bass fish"],
+      ["Sea bass", "Spigola", "sea bass"],
       ["Sea bream", "Orata"],
       ["Tuna", "Tonno"],
       ["Swordfish", "Pesce spada"],
@@ -146,7 +146,7 @@ const vocabularySections = [
       ["Allergic", "Allergico"],
       ["Gluten-free", "Senza glutine"],
       ["Dairy-free", "Senza latticini"],
-      ["Vegetarian", "Vegetariano", "vej uh tair ee un"],
+      ["Vegetarian", "Vegetariano", "veh juh tair ee un"],
       ["Vegan", "Vegano"],
       ["Nuts", "Frutta secca"],
       ["Peanuts", "Arachidi"],
@@ -180,6 +180,24 @@ const vocabularySections = [
 
 const timeSections = [
   {
+    title: "How To Say The Time",
+    titleIt: "Come dire l'ora",
+    items: [
+      ["First say the hour: one o'clock", "Prima dici l'ora: l'una"],
+      ["Use past from 1 to 29 minutes", "Usa past da 1 a 29 minuti"],
+      ["Five past one", "L'una e cinque"],
+      ["Ten past one", "L'una e dieci"],
+      ["Twenty past one", "L'una e venti"],
+      ["Quarter past one", "L'una e un quarto"],
+      ["Half past one", "L'una e mezza"],
+      ["Use to from 31 to 59 minutes", "Usa to da 31 a 59 minuti"],
+      ["Twenty to two", "Le due meno venti"],
+      ["Ten to two", "Le due meno dieci"],
+      ["Five to two", "Le due meno cinque"],
+      ["Quarter to two", "Le due meno un quarto"]
+    ]
+  },
+  {
     title: "Basic Time Words",
     titleIt: "Parole base per il tempo",
     items: [
@@ -197,24 +215,6 @@ const timeSections = [
       ["Late", "Tardi"],
       ["Open", "Aperto"],
       ["Closed", "Chiuso"]
-    ]
-  },
-  {
-    title: "Clock Examples",
-    titleIt: "Esempi dell'orologio",
-    items: [
-      ["One o'clock", "L'una"],
-      ["Two o'clock", "Le due"],
-      ["Twelve o'clock", "Le dodici"],
-      ["Quarter past one", "L'una e un quarto"],
-      ["Half past one", "L'una e mezza"],
-      ["Quarter to two", "Le due meno un quarto"],
-      ["Ten past seven", "Le sette e dieci"],
-      ["Twenty past eight", "Le otto e venti"],
-      ["Five to nine", "Le nove meno cinque"],
-      ["Ten thirty", "Le dieci e trenta"],
-      ["Seven fifteen", "Le sette e quindici"],
-      ["Eight forty-five", "Le otto e quarantacinque"]
     ]
   },
   {
