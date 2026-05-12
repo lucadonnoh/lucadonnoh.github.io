@@ -327,12 +327,18 @@ h2 {
   }
 
   .tabs {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     overflow-x: auto;
     border-radius: 8px;
   }
 
   .tab {
-    min-width: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 0;
+    padding: 10px 6px;
   }
 
   main {
