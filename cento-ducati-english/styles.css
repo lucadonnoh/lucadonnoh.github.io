@@ -4,10 +4,10 @@
   --muted: #657371;
   --paper: #fbfaf6;
   --panel: #ffffff;
-  --line: #ded8cc;
-  --sage: #597568;
-  --sage-dark: #2f5b4d;
-  --tomato: #b44334;
+  --line: #e4d3d8;
+  --sage: #c86f94;
+  --sage-dark: #9f3f68;
+  --tomato: #c23873;
   --sun: #d79b35;
   --focus: #1f6feb;
   --shadow: 0 16px 40px rgba(36, 48, 47, 0.08);
@@ -21,8 +21,8 @@ body {
   margin: 0;
   min-height: 100vh;
   background:
-    linear-gradient(135deg, rgba(89, 117, 104, 0.12), transparent 34%),
-    linear-gradient(315deg, rgba(180, 67, 52, 0.1), transparent 31%),
+    linear-gradient(135deg, rgba(200, 111, 148, 0.13), transparent 34%),
+    linear-gradient(315deg, rgba(194, 56, 115, 0.1), transparent 31%),
     var(--paper);
   color: var(--ink);
   font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -187,7 +187,7 @@ h2 {
 }
 
 .accordion-toggle:hover {
-  background: rgba(89, 117, 104, 0.08);
+  background: rgba(200, 111, 148, 0.09);
 }
 
 .accordion-toggle:focus-visible,
@@ -263,9 +263,9 @@ h2 {
   place-items: center;
   width: 42px;
   height: 42px;
-  border: 1px solid rgba(89, 117, 104, 0.24);
+  border: 1px solid rgba(200, 111, 148, 0.28);
   border-radius: 50%;
-  background: #f3f5ef;
+  background: #fcf0f5;
   color: var(--sage-dark);
   cursor: pointer;
 }
@@ -365,4 +365,5 @@ h2 {
     gap: 12px;
     padding: 12px 14px;
   }
+
 }
