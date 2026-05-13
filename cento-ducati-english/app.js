@@ -60,37 +60,23 @@ const vocabularySections = [
     ]
   },
   {
-    title: "Seafood And Local Menu",
-    titleIt: "Pesce e menu locale",
-    items: [
-      ["Mussels", "Cozze"],
-      ["Clams", "Vongole"],
-      ["Shrimp", "Gamberi"],
-      ["Prawns", "Gamberoni"],
-      ["Squid", "Calamari"],
-      ["Octopus", "Polpo"],
-      ["Sea bass", "Spigola", "sea bass"],
-      ["Sea bream", "Orata"],
-      ["Tuna", "Tonno"],
-      ["Swordfish", "Pesce spada"],
-      ["Anchovies", "Acciughe"],
-      ["Raw seafood", "Crudo di mare"],
-      ["Fried seafood", "Frittura di mare"],
-      ["Grilled fish", "Pesce alla griglia"],
-      ["Catch of the day", "Pescato del giorno"]
-    ]
-  },
-  {
-    title: "Cento Ducati Seafood Dishes",
+    title: "Cento Ducati Fish Dishes",
     titleIt: "Piatti di pesce Cento Ducati",
     items: [
       ["Fried octopus", "Frittura di polpo"],
       ["Fried calamari and shrimp", "Frittura di calamari e gamberi"],
       ["Sauteed mussels", "Saute di cozze"],
-      ["Pasta with mussels and clams", "Pasta con cozze e vongole"],
+      ["Prezzemolata with mussels and lupini clams", "Prezzemolata con cozze e vongole lupini"],
       ["Cavatelli with blue crab sauce", "Cavatelli al sugo di granchio blu"],
       ["Swordfish and prawns", "Pesce spada e gamberoni"],
       ["Grilled cuttlefish and prawns", "Seppia e gamberoni alla griglia"]
+    ]
+  },
+  {
+    title: "Cento Ducati Set Menu",
+    titleIt: "Menu fisso Cento Ducati",
+    items: [
+      ["Seven chef-selected courses", "7 portate consigliate dallo chef"]
     ]
   },
   {
@@ -135,11 +121,30 @@ const vocabularySections = [
       ["Sliced Podolica beef", "Tagliata di manzo podolica"],
       ["Podolica beef strips", "Straccetti di manzo podolica"],
       ["Horse meat stew", "Pezzetti di cavallo"],
+      ["Local foal diaphragm", "Diaframma di puledro locale"],
       ["Mixed grill", "Grigliata mista"],
-      ["Bombette", "Bombette tipiche"],
-      ["House sausage", "Salsiccia della casa"],
-      ["Horse meatballs", "Polpette di cavallo"],
-      ["Chicken cutlet with fries", "Cotoletta di pollo con patatine fritte"]
+      ["Typical bombette", "Bombette tipiche"],
+      ["Local house sausage", "Salsiccia della casa locale"],
+      ["Tripe with potatoes or beans", "Trippa e patate o fagioli"],
+      ["Turcinieddhri", "Turcinieddhri"],
+      ["Fried horse meatballs", "Polpette di cavallo fritte"],
+      ["Horse meatballs in tomato sauce", "Polpette di cavallo al sugo"],
+      ["Grilled chicken thigh and drumstick", "Coscia e sovraccoscia di pollo"],
+      ["Chicken cutlet with fries", "Cotoletta di pollo con patatine fritte"],
+      ["Mixed fried pork meatballs", "Polpette fritte mix suino"],
+      ["Baked snails", "Municeddhri al forno"],
+      ["Snails Genovese style", "Municeddhri alla genovese"],
+      ["Field chicory with pork feet", "Cicorie di campagna con piedini di maiale"]
+    ]
+  },
+  {
+    title: "Cento Ducati Sides",
+    titleIt: "Contorni Cento Ducati",
+    items: [
+      ["French fries", "Patatine fritte"],
+      ["Roasted potatoes", "Patate al forno"],
+      ["Green salad", "Insalata verde"],
+      ["Mixed salad", "Insalata mista"]
     ]
   },
   {
@@ -150,7 +155,10 @@ const vocabularySections = [
       ["Homemade tiramisu", "Tiramisu artigianale"],
       ["Spumone with figs and walnuts", "Spumone fichi e noci"],
       ["Hazelnut and pistachio spumone", "Spumone nocciola e pistacchio"],
-      ["Hazelnut and chocolate spumone", "Spumone nocciola e cioccolato"]
+      ["Hazelnut and chocolate spumone", "Spumone nocciola e cioccolato"],
+      ["Spumone with figs and walnuts drowned in San Marzano liqueur", "Spumone fichi e noci affogato al San Marzano"],
+      ["Hazelnut and pistachio spumone drowned in San Marzano liqueur", "Spumone nocciola e pistacchio affogato al San Marzano"],
+      ["Hazelnut and chocolate spumone drowned in San Marzano liqueur", "Spumone nocciola e cioccolato affogato al San Marzano"]
     ]
   },
   {
@@ -203,7 +211,7 @@ const vocabularySections = [
       ["Allergic", "Allergico"],
       ["Gluten-free", "Senza glutine"],
       ["Dairy-free", "Senza latticini"],
-      ["Vegetarian", "Vegetariano", "veh juh tair ee un"],
+      ["Vegetarian", "Vegetariano"],
       ["Vegan", "Vegano"],
       ["Nuts", "Frutta secca"],
       ["Peanuts", "Arachidi"],
@@ -330,7 +338,7 @@ const phraseSections = [
       ["Can you recommend a local dish?", "Puo consigliare un piatto locale?"],
       ["Is the fish fresh?", "Il pesce e fresco?"],
       ["Is this spicy?", "E piccante?"],
-      ["Is this vegetarian?", "E vegetariano?", "Is this veh juh tair ee un?"],
+      ["Is this vegetarian?", "E vegetariano?"],
       ["Does this have gluten?", "Contiene glutine?"],
       ["Does this have nuts?", "Contiene frutta secca?"],
       ["Can I have some more bread?", "Posso avere altro pane?"],
