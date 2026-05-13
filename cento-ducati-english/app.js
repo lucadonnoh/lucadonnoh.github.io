@@ -153,6 +153,7 @@ const vocabularySections = [
     items: [
       ["Mixed fruit", "Frutta mix"],
       ["Homemade tiramisu", "Tiramisu artigianale"],
+      ["Spumone is an Italian ice cream dessert", "Lo spumone e un dolce gelato italiano"],
       ["Spumone with figs and walnuts", "Spumone fichi e noci"],
       ["Hazelnut and pistachio spumone", "Spumone nocciola e pistacchio"],
       ["Hazelnut and chocolate spumone", "Spumone nocciola e cioccolato"],
@@ -363,8 +364,26 @@ const phraseSections = [
       ["I will ask the kitchen.", "Chiedo alla cucina."],
       ["This dish has shellfish.", "Questo piatto contiene crostacei."],
       ["This dish is gluten-free.", "Questo piatto e senza glutine."],
-      ["Would you like dessert?", "Volete un dolce?"],
       ["Thank you, have a nice evening.", "Grazie, buona serata."]
+    ]
+  },
+  {
+    title: "End Of The Meal",
+    titleIt: "Fine del pasto",
+    items: [
+      ["Is everything okay?", "Va tutto bene?"],
+      ["Did you like everything?", "Vi e piaciuto tutto?"],
+      ["Did you enjoy your meal?", "Avete mangiato bene?"],
+      ["Was everything good?", "Era tutto buono?"],
+      ["Can I offer you a coffee?", "Posso offrirvi un caffe?"],
+      ["Would you like coffee?", "Volete un caffe?"],
+      ["Would you like dessert?", "Volete un dolce?"],
+      ["Would you like an amaro?", "Volete un amaro?"],
+      ["Would you like anything else?", "Desiderate altro?"],
+      ["Can I bring you the bill?", "Posso portarvi il conto?"],
+      ["If you enjoyed everything, a review would help us a lot.", "Se vi e piaciuto tutto, una recensione ci aiuterebbe molto."],
+      ["Thank you for coming.", "Grazie per essere venuti."],
+      ["We hope to see you again soon.", "Speriamo di rivedervi presto."]
     ]
   },
   {
