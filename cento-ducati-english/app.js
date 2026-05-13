@@ -357,6 +357,8 @@ const phraseSections = [
       ["Good evening, welcome to Cento Ducati.", "Buonasera, benvenuti al Cento Ducati."],
       ["Do you have a reservation?", "Avete una prenotazione?"],
       ["How many people are you?", "Quante persone siete?"],
+      ["Would you like to sit inside or outside?", "Preferite sedervi dentro o fuori?"],
+      ["We have a terrace outside.", "Abbiamo una terrazza fuori."],
       ["Please wait here for a moment.", "Aspettate qui un momento, per favore."],
       ["Your table is ready.", "Il vostro tavolo e pronto."],
       ["Here is the menu.", "Ecco il menu."],
